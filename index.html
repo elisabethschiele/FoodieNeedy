@@ -23,6 +23,20 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  <!--import own.css-->
+  <link href="css/own.css" rel="stylesheet">
+
+
+  <!-- leaflet css + js -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+  integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+  crossorigin=""></script>
+
+
 </head>
 
 <body id="page-top">
@@ -40,7 +54,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#map">Map</a>
           </li>
-          <!--here we want one more option: go to more info section (same as above)-->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#map">test</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -71,6 +87,7 @@
         </div>
       </div>
     <!-- here we put the map -->
+    <div id="mapid"></div>
     </div>
   </section>
 
@@ -396,6 +413,15 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- own js-->
+  <script src="js/own.js"></script>
+
+
+
+
+
+
 
 </body>
 
