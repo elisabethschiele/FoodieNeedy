@@ -8,4 +8,4 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(mymap)
 
 var marker = L.marker([22.572, 88.363]).addTo(mymap);
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
+marker.bindPopup("<b>school name</b><br>Dropoff: <br>Pickup: <br>Adress: ");
