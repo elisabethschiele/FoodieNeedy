@@ -6,3 +6,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiZWxpc2FiZXRoc2NoaWVsZSIsImEiOiJjanViaDhycTQwMW02NGFxanozOHl4YnN5In0.hEeCkoBE_0Nj3wosrrEHGQ'
 }).addTo(mymap)
+
+var marker = L.marker([22.572, 88.363]).addTo(mymap);
+marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
